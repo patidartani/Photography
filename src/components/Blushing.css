@@ -1,0 +1,171 @@
+.image{
+    width: 100%;
+    height: 10vmax;
+    background-image: url(https://solene.qodeinteractive.com/wp-content/uploads/2020/01/port-title-img-1-parallax.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(231, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vmax 5vmax;
+    font-family: serif;
+    background-attachment: fixed;
+    
+}
+.image .left h3{
+    letter-spacing: 0.2vmax;
+    font-size: 1.8vmax;
+    cursor: pointer;
+}
+.image .right{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.multiimage{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vmax; 
+}
+.multiimage .left{
+   width: 60%;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+.multiimage .left .layer img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.multiimage .left .layer{
+    width: 30%;
+    height: 11vmax;
+    position: relative;
+    transition: 0.5s;
+    margin-top: 1vmax;
+   
+}
+.multiimage .left .layer:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.imagedata {
+    width: 80%;
+    height: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imagedata1{
+    width: 100%;
+    height: 95%;
+   
+}
+.imagedata1 .bdahoja{
+    width: 90%;
+    height: 100%;
+}
+.imagedata .ri-close-circle-line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+}
+
+.multiimage .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.multiimage .right h4{
+    font-size: 2.5vmax;
+    letter-spacing: 0.5vmax;
+    font-family: serif;
+    color: rgb(114, 112, 112);
+}
+.multiimage .right h5{
+    font-family: serif;
+    font-size: 1.5vmax;
+    color: gray;
+}
+.multiimage .right h6{
+    font-family: serif;
+    font-size: 1.3vmax;
+    color:  gray;
+}
+.line{
+    width: 90%;
+    margin-left: 5vmax;
+    margin-top: 3vmax;
+}
+@media (max-width:600px) {
+    .image{
+        width: 100%;
+        height: 15vmax;
+        justify-content: space-evenly;
+        padding: 4vmax 0vmax;
+        flex-direction: column;
+        
+    }
+    .image .left h3{
+        font-size: 2vmax;
+    }
+    .image .right{
+        width: 80%;
+    }
+    .multiimage{
+        align-items: center;
+        flex-direction: column;
+    }
+    .multiimage .left{
+       width: 80%;
+    }
+    .multiimage .left .layer{
+        width: 100%;
+        height: 25vmax;
+        margin-top: 2vmax;
+       
+    }
+    .multiimage .right{
+        width: 80%;
+        margin-top: 3vmax;
+    }
+    .multiimage .right h4{
+        font-size: 4.5vmax;
+        letter-spacing: 0.3vmax;
+    }
+    .multiimage .right h5{
+        font-size: 2.5vmax;
+    }
+    .multiimage .right h6{
+        font-size: 2.5vmax;
+    }
+    .line{
+        width: 90%;
+        margin-left: 2vmax;
+        margin-top: 3vmax;
+    }
+}
+@media (min-width:600px) and (max-width:912px) {
+    .image .right{
+        width: 40%;
+    }
+    .multiimage .right {
+        margin-top: 2vmax;
+    }
+    .multiimage .right h4{
+        font-size: 2.5vmax;
+        letter-spacing: 0.2vmax;
+    }
+}

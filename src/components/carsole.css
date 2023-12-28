@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Cormorant+Garamond&family=Lato&family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.head1{
+    position: relative;
+     background-color: transparent;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 200px;
+     align-items: center;
+        background-image: url(https://img.freepik.com/free-photo/groom-black-tuxedo-hugs-tender-stunning-bride-while-they-stand_8353-8050.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* padding-top: 20vmax; */
+    transform: translateY(10.5vmax);
+    margin-bottom: 10vmax;
+}
+.head2 h3{
+    margin-left: 90px;
+    font-size: 23px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+.head3{
+     margin-right: 80px;
+   
+}
+.head3 a{
+    text-decoration: none;
+    width: 50%;
+    color: rgb(228, 222, 215);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-style: italic;
+}
+.i-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+   padding: 40px;
+}
+.i-2{
+ 
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: row;
+  
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    color: #88847a;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+.ite{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+  
+    
+}
+.ite1{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    
+}
+.kit{
+    padding: 37px;
+    margin-left: -40px;
+}
+.ki-1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    /* margin-left: 80px; */
+    /* background-color: red; */
+}
+.ki-1.caroselimage.hide{
+    display: none;
+}
+.ki-1.caroselimage.show{
+    display: block;
+}
+.ki-2{
+    align-items: center;
+    justify-content: space-around;
+   
+    width: 25%;
+  
+}
+.ki-2 img{
+    width: 260px;
+    height: 380px;
+}
+.ki-3{
+    position: relative;
+}
+.ki-4{
+     position: absolute;
+    display: none;
+    background-color: transparent;
+    margin-top: -102px;
+    margin-left: 85px;
+}
+.ki-3 img:hover{
+  filter: blur(0.1rem);
+}
+  .ki-3:hover> .ki-4{
+
+    display: initial;
+  }
+  .ki-4 i{
+   font-size: 80px;
+   margin-top: -160px;
+   color: white;
+   margin-left: 10px;
+   font-weight: 100;
+   position: absolute;
+
+  }
+  .ki-3.hide{
+    display: none;
+  }
+  @media (max-width:600px){
+   /* .main{
+    overflow: hidden;
+   } */
+ .head1{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    height: 130px;
+    width: 97%;
+
+ }
+ .head2 h3{
+    margin-left: 90px;
+    font-size: 19px;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.2rem;
+    color: white;
+    margin-top: 70px;
+     
+
+}
+.head3 {
+     margin-right: 0px;
+     margin-left: 50px;
+       
+}
+.head3 a{
+    color: #fdfcf8;
+     font-size: 18px;
+      
+}
+.i-2{
+ 
+    display: flex;
+    margin: 20px 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    color: #88847a;
+}
+.ki-1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+    margin-left: 0px;
+    padding: 10px;
+    gap: 2;
+    
+}
+.i-2{
+ 
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: column;
+  
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    color: #88847a;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+      
+}
+.ki-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    /* margin-left: 30px; */
+    
+}
+
+.ki-2 img{
+    width: 280px;
+    height: 380px;
+}
+}
+ @media(min-width:600px)and (max-width:1100px){
+  .head1{
+    display: flex;
+    flex-direction: row;
+    color: red;
+    height: 130px;
+    width: 100%;
+ }
+ .i-2{
+ 
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: row;
+  
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    color: #88847a;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+.ki-1{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 0px;
+}
+.ki-2{
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    width: 25%;
+  
+}
+ }
+ 

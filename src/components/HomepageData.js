@@ -1,0 +1,18 @@
+export const arrayValue = [
+    {src: "image-1.jpg", number: "# 0 5 2"},
+    {src: "image-2.jpg", number: "# 0 5 3"},
+    {src: "image-3.jpg", number: "# 0 5 4"},
+    {src: "image-4.jpg", number: "# 0 5 5"},
+    {src: "image-5.jpg", number: "# 0 5 6"},
+    {src: "image-6.jpg", number: "# 0 5 7"},
+    {src: "image-7.jpg", number: "# 0 5 8"},
+    {src: "image-8.jpg", number: "# 0 5 9"},
+    {src: "image-9.jpg", number: "# 0 6 0"},
+    {src: "image-10.jpg", number: "# 0 6 1"},
+    {src: "image-11.jpg", number: "# 0 6 2"},
+    {src: "image-12.jpg", number: "# 0 6 3"},
+    {src: "image-13.jpg", number: "# 0 6 4"},
+    {src: "image-14.jpg", number: "# 0 6 5"},
+    {src: "image-15.jpg", number: "# 0 6 6"},
+    {src: "image-16.jpg", number: "# 0 6 7"},
+  ];

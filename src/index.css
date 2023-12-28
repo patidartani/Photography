@@ -1,13 +1,147 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.page1{
+    height: 100%;
+    /* background-color: red; */
+}
+.navspace{
+    height: 35%;
+}
+.proofing{
+    font-family:'serif';
+    letter-spacing: 0.4vmax;
+    color: gray;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.imagesize{
+    width: 17vmax;
+    height: 25vmax;
+    object-fit: cover;
+    object-position: center;
 }
+
+
+.all h4{
+    color: gray;
+    font-family: Courgette;
+    font-size: 1.2vmax;
+
+}
+.icon h6{
+    color: gray;
+}
+ .imagedata2 {
+    width: 80%;
+    height: 30vmax;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: red;
+}
+.imagedata3{
+    width: 100%;
+    height: 60%;
+   
+}
+.imagedata3 .bdahoja{
+    width: 90%;
+    height: 100%;
+}
+.imagedata1 .ri-close-circle-line{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+} 
+.download{
+    background-color: white;
+    color: gray;
+}
+i,img, .icon{
+    cursor: pointer;
+    color: gray;
+}
+.alls{
+    width: 100%;
+}
+.allone{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.imagesizes{
+    width: 17vmax;
+    height: 23vmax;
+    object-fit: cover;
+    object-position: center;
+}
+.allone h5{
+    color: gray;
+}
+
+
+i{
+    text-decoration: none;
+}
+ 
+
+
+
+@media (max-width:550px) {
+    .allone{
+        /* width: 120%; */
+       
+        /* background-color: red; */
+        
+    }
+    #all{
+        flex-direction: column;
+
+    }
+    /* .imagesize{
+        width: 42vmax;
+        height: 44vmax;
+        object-fit: cover;
+        object-position: center;
+    } */
+    .imagesizes{
+        width: 40vmax;
+        height: 44vmax;
+       
+        object-fit: cover;
+        object-position: center;
+       
+        
+    }
+    .alls{
+        width:100%;
+        align-items: center;
+    }
+   
+}
+
+@media (max-width:820px) and (min-width:700px) {
+    .allone{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagesize{
+        width: 25vmax;
+        height: 44vmax;
+    }
+    .imagesizes{
+        width: 25vmax;
+        height: 44vmax;
+    }
+
+   
+} 
+
+
+
+

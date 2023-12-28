@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: #f4f0ed; */
+}
+.scroll{
+    scroll-behavior: smooth;
+    font-family :Muli sans-serif
+   
+}
+
+#bgcolor{
+    background-color: #f4f0ed;
+    padding-top: 8vmax;
+    font-family :Muli sans-serif
+}
+.leftright h5{
+  cursor: pointer;
+}
+.leftone {
+
+    text-align: start;
+    
+}
+.leftone  img:hover{
+      transform: translateX(4vmax);
+}
+.leftone h2{
+    font-size: 4vmax;
+    margin-left: 3vmax;
+    letter-spacing: 1vmax;
+}
+.leftone p{
+    font-size: 1.5vmax;
+    margin-left: 3vmax;
+    font-family: Courgette;
+}
+.leftone img{
+    width: 35vw;
+    height: 85vh;
+    margin-left: 3vmax;
+    transition: 2s;
+}
+.leftright h6{
+    letter-spacing: 0.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.leftright h5{
+    font-size: 1.7vmax;
+    letter-spacing: 0.2vmax;
+    color: gray;
+}
+
+.rightone img{
+    width: 35vw;
+    height: 85vh;
+    margin-right: 3vmax;
+    text-align: end;
+    margin-top: -3vmax;
+    transition: 2s;
+}
+.rightone  img:hover{
+    transform: translateY(4vmax);
+}
+.lefttwo img{
+    width: 30vw;
+    height: 85vh;
+    margin-left: 3vmax;
+    margin-top: 8vmax;
+    transition: 2s;
+}
+.lefttwo img:hover{
+    transform:scale(1.2);
+    }
+.righttwo img{
+    width: 35vw;
+    height: 85vh;
+    margin-right: 3vmax;
+    margin-top: -5vmax;
+    transition: 2s;
+}
+.righttwo img:hover{
+transform:scale(0.5);
+}
+.companytag{
+    height: 25vmax;
+    background-color: #f4f0ed;
+}
+.companytag img{
+    margin-top: 3vmax;
+    margin-left: 2vmax;
+}
+.graydiv{
+    background-color: #f4f0ed;
+    color: rgb(152, 142, 142);
+}
+.graydiv h3{
+    letter-spacing: 0.2vmax;
+    font-size: 1.5vmax;
+}
+.coffee h6{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1vmax;
+    font-size: 0.9vmax;
+}
+.coffee .override {
+    font-size: 5vmax;
+    opacity: 0.2;
+    transform: translateY(-4.5vmax);
+    font-family: Courgette;
+}
+.team h3{
+    font-size: 2.4vmax;
+    letter-spacing: 0.5vmax;
+    color: gray;
+}
+.team h4{
+    font-size: 1.5vmax;
+    color: gray;
+    font-family: Courgette;
+   
+}
+.imagehover{
+    margin-top: -13vmax;
+    opacity: 0;
+}
+.onhover{
+    transition: 1s;
+}
+.onhover:hover{
+    transform: rotateX(50deg);
+}
+.onhover:hover .imagehover{
+    cursor: pointer;
+    opacity: 1;
+}
+.onblur{
+    transition: 1s;
+}
+.onblur .on{
+    font-family: Courgette;
+    color: gray;
+    letter-spacing: 0;
+    font-size: 1.1vmax;
+}
+.onblur h3{
+    font-size: 1.7vmax;
+    letter-spacing: 0.2vmax;
+    color: rgb(63, 60, 60);
+}
+.onblur:hover > .blur{
+    filter: blur(2px);
+}
+.blur:hover > h5{
+    transform: translateY(-30vmax);
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+.onblur .ut{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.onblur h5{
+    letter-spacing: 0.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9vmax;
+    margin-bottom: 4vmax;
+}
+.greentext p{
+    font-family: Courgette;
+    color: gray;
+}
+.greentext h4{
+    font-family: serif;
+    letter-spacing: 0.4vmax;
+    font-size: 1.7vmax;
+
+}
+.greentext h6{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4vmax;
+    font-size: 0.8vmax;
+    
+}
+.lefttext h4{
+    letter-spacing: 1vmax;
+    font-size: 2.2vmax;
+    cursor: pointer;
+    color: gray;
+
+}
+.lefttext p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.lefttext:hover {
+    transform: rotate(360deg);
+    
+}
+.textheading{
+    font-size: 2.8vmax;
+    letter-spacing: 0.7vmax;
+    color: rgb(74, 70, 70);
+}
+.ali{
+    color: gray;
+    font-family: Courgette;
+
+}
+.mainimaged{
+    height: 100vh;
+    width: 98.7vw;
+    background-color: red;
+    background-image: url(https://solene.qodeinteractive.com/wp-content/uploads/2019/11/product-4a-1000x650.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-repeat: no-repeat; */
+}
+.mainimaged h1{
+    font-size: 3.7vmax;
+    letter-spacing: 0.4vmax;
+    color: white;
+    font-family:'serif';
+}
+.mainimaged p{
+    font-size: 1.5vmax;
+    color: white;
+    font-family: Courgette;
+    
+    
+}
+.mainimaged button{
+    padding: 1vmax 4vmax;
+    font-size: 1.1vmax;
+    background: transparent;
+    letter-spacing: 0.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 1px solid white;
+
+}
+.hovername{
+    margin-top: -10vmax;
+    opacity: 0;
+    color: white;
+}
+.hovername h4{
+    font-size: 0.9vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2vmax;
+}
+.hovername h2{
+    font-size: 1.7vmax;
+    font-family: serif;
+    letter-spacing: 0.2vmax;
+}
+.downhoverimage img{
+    background-color: red;
+    margin-top: 2vmax;
+}
+.downhoverimage:hover > .hovername{
+    opacity: 1;
+    cursor: pointer;
+}
+.greentextt{
+    height: 30vmax;
+    background-color: #757b66;
+    color: rgba(255, 255, 255, 0.892);
+}
+.greentextt  i{
+    font-size: 5vmax;
+   
+}
+.greentextt h4{
+    letter-spacing: 0.2vmax;
+    font-size: 1.5vmax;
+    
+}
+.greentextt h6{
+    font-size: 1.3vmax;
+    font-family: Courgette;
+}
+.greentextt p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testi h1{
+    letter-spacing: 0.5vmax;
+    color: rgb(92, 86, 86);
+}
+.testi h6{
+   font-size: 1.5vmax;
+    color:gray;
+    font-family: Courgette;
+}
+.containers{
+    width: 100%;
+    display: flex;
+    
+
+   
+    
+
+}
+.containers img{
+    width: 100%;
+    z-index: 999;
+    transform: translateX(5vmax);
+}
+.graybg{
+    width: 50%;
+    height: 30vmax;
+    background-color: #f2f3f0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.graybg p{
+    width: 50%;
+    color: gray;
+    font-size: 1.5vmax;
+}
+.graybg h6{
+    color: gray;
+    font-family: Courgette;
+    font-size: 1.2vmax;
+}
+
+
+
+.princing{
+    width: 100%;
+    height: 30vmax;
+    background-color: rgb(246,243,241);
+    /* margin-top: 3vmax; */
+}
+.princycontent{
+    padding: 5vmax;
+}
+.premium{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.premium .premiumbox{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.premium .premiumbox .premiumboxes{
+    width: 30%;
+    height: 30vmax;
+    border: 1px solid rgb(216, 210, 210);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.premium .premiumbox .premium1{
+    width: 90%;
+    height: 28vmax;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: gray;   
+}
+.premium .premiumbox .premium1 h5{
+    font-family: serif;
+    font-size: 1.6vmax;
+    letter-spacing: 0.5vmax;  
+}
+.premium .premiumbox .premium1 a button{
+    padding: 1vmax 5vmax;
+    border: none;
+    background-color: rgb(172, 168, 168);
+    letter-spacing: 0.3vmax;
+    font-size: 1vmax;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+   .standarded{
+    display: flex;
+    flex-direction: column;
+   }
+   .containers{
+   
+   flex-direction: column;
+   align-items: center;
+   }
+  
+   .greentext{
+    
+    display: flex;
+    flex-direction: column;
+
+    
+   }
+   .greentext p{
+    font-family: Courgette;
+    color: gray;
+    font-size: 2vmax;
+}
+
+.greentext h6{
+    font-size: 1.7vmax;
+    
+}
+   .companytag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   }
+   .imagehover{
+    margin-top: -16vmax;
+    transform: translateX(5vmax);
+    opacity: 0;
+}
+.youtube{
+    height: 40vh;
+}
+.coffee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.override {
+    font-size: 9vmax;
+    
+    transform: translateY(-8vmax);
+    
+}
+.leftright{
+    display: flex;
+    flex-direction: column;
+
+}
+.leftone img{
+    width: 80vw;
+    /* margin-left: 4vmax; */
+}
+.leftone{
+    text-align: center;
+}
+
+.rightone img{
+    width: 80vw;
+    margin-right: 0vmax;
+    margin-top: 2vmax;
+}
+.rightone{
+    text-align: center;
+}
+.lefttwo img{
+    width: 80vw;
+
+    margin-top: 8vmax;
+}
+.lefttwo{
+    text-align: center;
+}
+.righttwo img{
+    width: 80vw;
+    height: 85vh;
+    margin-right: 0vmax;
+    margin-left: 3vmax;
+    margin-top: 0vmax;
+}
+.righttwo{
+    text-align: center;
+}
+.mainimaged{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1515305971564-9c281db354c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* background-repeat: no-repeat; */
+}
+.mainimaged h1{
+    width: 85%;
+    /* font-size: 3.7vmax;
+    letter-spacing: 0.4vmax;
+    color: white;
+    font-family:'serif'; */
+}
+.mainimaged p{
+    width: 85%;
+     font-size: 1.9vmax;
+     text-align: center;
+   
+    
+    
+}
+.mainimaged button{
+    /* padding: 1vmax 4vmax;
+    font-size: 1.1vmax;
+    background: transparent;
+    letter-spacing: 0.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 1px solid white; */
+
+}
+
+
+.graydiv h3{
+    letter-spacing: 0.3vmax;
+    font-size: 2vmax;
+}
+.team h4{
+    font-size: 2.3vmax;
+}
+.greentextt{
+    height: auto;
+    flex-direction: column;
+    /* background-color: #757b66;
+    color: rgba(255, 255, 255, 0.892); */
+}
+.testi h1{
+    /* letter-spacing: 0.5vmax; */
+    /* color: rgb(92, 86, 86); */
+    font-size: 3.5vmax;
+}
+.testi h6{
+   font-size: 2vmax;
+    /* color:gray; */
+    /* font-family: Courgette; */
+}
+
+.containers img{
+    /* width: 100%; */
+    /* z-index: 999; */
+    transform: translateX(0vmax);
+}
+.graybg{
+    width: 90%;
+    height: 30vmax;
+    /* background-color: #f2f3f0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+.graybg p{
+    width: 90%;
+    /* color: gray; */
+    font-size: 2vmax;
+}
+.graybg h6{
+    /* color: gray;
+    font-family: Courgette; */
+    font-size: 1.8vmax;
+}
+.downhoverimage img{
+    /* background-color: red; */
+    margin-top: 10vmax;
+}
+.downhoverimage .rsimg{
+    /* margin-top: 150vmax; */
+}
+
+.onblur h3{
+    font-size: 3vmax;
+}
+.onblur .on{
+    font-size: 1.8vmax;
+}
+.onblur h5{
+    font-size: 2vmax;
+}
+
+}
+
+
+
+@media (min-width:600px) and (max-width:900px) {
+    .standarded{
+     display: flex;
+     flex-direction: column;
+    }
+    .containers{
+     
+    flex-direction: column;
+    align-items: center;
+    }
+   
+    .greentext{
+     
+     display: flex;
+     flex-direction: column;
+     
+    }
+    .greentext p{
+     font-family: Courgette;
+     color: gray;
+     font-size: 2vmax;
+ }
+ 
+ .greentext h6{
+     font-size: 1.7vmax;
+     
+     
+ }
+    .companytag {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: auto;
+    }
+    .imagehover{
+     margin-top: -16vmax;
+     transform: translateX(5vmax);
+     opacity: 0;
+ }
+ .youtube{
+     height: 40vh;
+ }
+ .coffee{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .override {
+     font-size: 9vmax;
+     
+     transform: translateY(-8vmax);
+     
+ }
+ .leftright{
+     display: flex;
+     flex-direction: column;
+ 
+ }
+ .leftone img{
+     width: 80vw;
+     /* margin-left: 4vmax; */
+ }
+ .leftone{
+     text-align: center;
+ }
+ 
+ .rightone img{
+     width: 80vw;
+     margin-right: 0vmax;
+     margin-top: 2vmax;
+ }
+ .rightone{
+     text-align: center;
+ }
+ .lefttwo img{
+     width: 80vw;
+ 
+     margin-top: 8vmax;
+ }
+ .lefttwo{
+     text-align: center;
+ }
+ .righttwo img{
+     width: 80vw;
+     height: 85vh;
+     margin-right: 0vmax;
+     margin-left: 3vmax;
+     margin-top: 0vmax;
+ }
+ .righttwo{
+     text-align: center;
+ }
+ .mainimaged{
+     height: 60vh;
+     width: 100%;
+     /* background-color: red;
+     background-image: url(https://images.unsplash.com/photo-1515305971564-9c281db354c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     z-index: -1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center; */
+     /* background-repeat: no-repeat; */
+ }
+ .mainimaged h1{
+     width: 85%;
+     /* font-size: 3.7vmax;
+     letter-spacing: 0.4vmax;
+     color: white;
+     font-family:'serif'; */
+ }
+ .mainimaged p{
+     width: 85%;
+      font-size: 1.9vmax;
+      text-align: center;
+    
+     
+     
+ }
+ .mainimaged button{
+     /* padding: 1vmax 4vmax;
+     font-size: 1.1vmax;
+     background: transparent;
+     letter-spacing: 0.2vmax;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     border: 1px solid white; */
+ 
+ }
+ .graydiv h3{
+     letter-spacing: 0.3vmax;
+     font-size: 2vmax;
+ }
+ .team h4{
+     font-size: 2.3vmax;
+ }
+ .greentextt{
+     height: auto;
+     flex-direction: column;
+ }
+ .greentextt  p{
+    transform: translateX(5vmax);
+    font-size: 2vmax;
+    
+ }
+ .greentextt h4{
+    font-size: 2vmax;
+ }
+ .greentextt h6{
+    font-size: 2vmax;
+ }
+ .greentextt i{
+    font-size: 6vmax;
+ }
+ .testi h1{
+     /* letter-spacing: 0.5vmax; */
+     /* color: rgb(92, 86, 86); */
+     font-size: 3.5vmax;
+ }
+ .testi h6{
+    font-size: 2vmax;
+     /* color:gray; */
+     /* font-family: Courgette; */
+ }
+ .containers{
+     /* width: 100%; */
+ 
+ }
+ .containers img{
+     /* width: 100%; */
+     /* z-index: 999; */
+     transform: translateX(0vmax);
+ }
+ .graybg{
+     width: 90%;
+     height: 30vmax;
+     /* background-color: #f2f3f0;
+     z-index: -1;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center; */
+ }
+ .graybg p{
+     width: 90%;
+     /* color: gray; */
+     font-size: 2vmax;
+ }
+ .graybg h6{
+     /* color: gray;
+     font-family: Courgette; */
+     font-size: 1.8vmax;
+ }
+ .downhoverimage img{
+     /* background-color: red; */
+     margin-top: 10vmax;
+ }
+ .downhoverimage .rsimg{
+     margin-top: 22vmax;
+ }
+ .homepagefooter{
+     margin-top: 25vmax;
+ }
+ .onhover img{
+    margin-left: 3vmax;
+   
+}
+ .onblur h3{
+     font-size: 3vmax;
+ }
+ .onblur .on{
+     font-size: 1.8vmax;
+ }
+ .onblur h5{
+     font-size: 2vmax;
+ }
+ .companytag img{
+    width: 60vmax;
+    margin-top: 2vmax;
+ }
+ 
+ }

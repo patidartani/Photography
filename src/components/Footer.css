@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+#mains{
+height:auto;
+width:98.7vw;
+/* background-color: green; */
+position:relative;
+display: flex;
+font-family: Courgette;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.center{
+    height:45vh;
+    width: 80vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fp1{
+    height: 30vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: white; */
+}
+.logo>a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vh;
+}
+.fp2{
+    height: 30vh;
+    width: 25vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.37);
+    justify-content: center;
+    /* background-color: red; */
+}
+.circlef{
+    background-color:gray;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 5s;
+    animation: circle 5s linear infinite;
+    color: white;
+}
+.fp3{
+    height: 45vh;
+    width: 25vw;
+    /* background-color: blue; */
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.finput{
+    width: 13vw;
+    /* background-color: green; */
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+.finput input::placeholder{
+    color:black;
+}
+.finput>a{
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+}
+.finput>input{
+    border: none;
+    outline: none;
+    font-family: Courgette;
+    padding: 0 2vh;
+    background-color: transparent;
+}
+
+    @keyframes circle {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+@media screen and (max-width: 660px) {
+    #main{
+        height: auto;
+        height: fit-content;
+        width: 98.7vw;
+        position: relative;
+       
+    }
+    .center{
+        height: fit-content;
+        width: 98.7vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .fp1{
+        height: 35vh;
+        width: 80vw;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .logo{
+        width: 40vw;
+    }
+    .fp2{
+        height: 35vh;
+        width: 80vw;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .fp3{
+        height: 35vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        justify-content: center;
+    }
+    .finput{
+        width: 70vw;
+    }
+    .finput>a{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #main{
+        height: fit-content;
+        width: 98.7vw;
+        position: relative;
+        /* background-color: red; */
+    }
+    .center{
+        height: fit-content;
+        width: 98.7vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .fp1{
+        height: 35vh;
+        width: 80vw;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .logo{
+        width: 40vw;
+    }
+    .fp2{
+        height: 35vh;
+        width: 80vw;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .fp3{
+        height: 35vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        justify-content: center;
+    }
+    .finput{
+        width: 70vw;
+    }
+    .finput>a{
+        font-size: 2vh;
+    }
+}
