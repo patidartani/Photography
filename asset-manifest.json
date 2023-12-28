@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Photography/static/css/main.e1d51af2.css",
+    "main.js": "/Photography/static/js/main.2c358b49.js",
+    "static/media/remixicon.svg?t=1687271883607": "/Photography/static/media/remixicon.636515c9a8963df4380d.svg",
+    "static/media/remixicon.eot?t=1687271883607": "/Photography/static/media/remixicon.83e9a22ce7f199999169.eot",
+    "static/media/remixicon.ttf?t=1687271883607": "/Photography/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
+    "static/media/remixicon.woff?t=1687271883607": "/Photography/static/media/remixicon.3f0f84f17d39491e07ff.woff",
+    "static/media/remixicon.woff2?t=1687271883607": "/Photography/static/media/remixicon.85992a032c7668836563.woff2",
+    "static/media/h1-img-4.jpg": "/Photography/static/media/h1-img-4.7864c62e984c5020ef64.jpg",
+    "static/media/team-img-4.jpg": "/Photography/static/media/team-img-4.7ffaa16adae079cb8b00.jpg",
+    "static/media/team-img-3.jpg": "/Photography/static/media/team-img-3.59acf868179f3d3c43a9.jpg",
+    "static/media/team-img-2.jpg": "/Photography/static/media/team-img-2.0928e301669337494a3c.jpg",
+    "static/media/about-us-img-1.jpg": "/Photography/static/media/about-us-img-1.e5f683bae006dda245ce.jpg",
+    "static/media/team-img-1.jpg": "/Photography/static/media/team-img-1.e8a8807f2013da51d469.jpg",
+    "static/media/about-us-img-3.jpg": "/Photography/static/media/about-us-img-3.81882b977aeeb88e487f.jpg",
+    "static/media/about-us-img-2.jpg": "/Photography/static/media/about-us-img-2.60b313ff969fb6f310cf.jpg",
+    "static/media/aboutbackgraound.jpeg": "/Photography/static/media/aboutbackgraound.d3537b101dd2d78cb188.jpeg",
+    "index.html": "/Photography/index.html",
+    "main.e1d51af2.css.map": "/Photography/static/css/main.e1d51af2.css.map",
+    "main.2c358b49.js.map": "/Photography/static/js/main.2c358b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d51af2.css",
+    "static/js/main.2c358b49.js"
+  ]
+}
